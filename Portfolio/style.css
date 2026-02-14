@@ -45,6 +45,7 @@ body {
   justify-content: space-between;
   padding: 0 5vw;
   background: rgba(2, 6, 23, 0.88);
+  -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(148, 163, 184, 0.26);
 }
@@ -137,6 +138,7 @@ body {
 .accent {
   background: linear-gradient(90deg, #38bdf8, #a855f7);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
